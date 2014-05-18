@@ -1,7 +1,7 @@
 {
   "name": "grunt-dir2strings",
-  "description": "Flatten a folder to a JSON file representing by path strings",
-  "version": "0.1.0",
+  "description": "Flatten a folder to a JSON file represented by path strings",
+  "version": "0.1.1",
   "author": {
     "name": "Ellipsis team",
     "email": "axel.moussard@gmail.com"

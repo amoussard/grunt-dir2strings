@@ -1,18 +1,16 @@
 /*
- * grunt-dir2string
+ * grunt-dir2strings
+ * https://github.com/amoussard/grunt-dir2strings
  *
  * Copyright (c) 2014 Ellipsis team
  * Licensed under the MIT license.
  */
 
-/*jslint white: true, plusplus: true */
-/*global module, require */
-
 module.exports = function(grunt) {
 
     'use strict';
 
-    grunt.registerMultiTask('dir2strings', 'Flatten a folder to a JSON file representing its contents in strings', function() {
+    grunt.registerMultiTask('dir2strings', 'Flatten a folder to a JSON file represented by path strings', function() {
 
         var options, root, dest, exclusions, path, result, removeExclusions, processFile, processDir, getKey, cleanArray;
 
